@@ -3,82 +3,53 @@
         {
             "imgPath": "img/places/taylor-swift.jpg",
             "imgLocation": "West Reading, Pennsylvania",
-            "description": "Known for her storytelling in pop and country 
-            music, Swift has built a massive global following with albums 
-            that explore themes of love, heartbreak, and personal growth.",
+            "description": "Known for her storytelling in pop and country music, Swift has built a massive global following with albums that explore themes of love, heartbreak, and personal growth.",
             "birthday": "01/01/2016"
         },
         {
             "imgPath": "img/places/tyler-the-creator.png",
             "imgLocation": "Hawthorne, California",
-            "description": "A boundary-pushing rapper and producer, Tyler is 
-            celebrated for his unique style, humor, and evolving musicality 
-            in projects that range from provocative to introspective.",
-            "birthday": "01/02/2016"
+            "description": "A boundary-pushing rapper and producer, Tyler is celebrated for his unique style, humor, and evolving musicality in projects that range from provocative to introspective.","birthday": "01/02/2016"
         },
         {
             "imgPath": "img/places/bruno-mars.png",
             "imgLocation": "Honolulu, Hawaii",
-            "description": "With his retro-inspired style and powerful vocals, 
-            Mars fuses pop, R&B, and funk, producing energetic hits that 
-            channel classic influences with modern flair.",
-            "birthday": "01/03/2016"
+            "description": "With his retro-inspired style and powerful vocals, Mars fuses pop, R&B, and funk, producing energetic hits that channel classic influences with modern flair.","birthday": "01/03/2016"
         },
         {
             "imgPath": "img/places/the-weekend.png",
             "imgLocation": "Toronto, Ontario, Canada",
-            "description": "Known for his dark, atmospheric sound, 
-            The Weeknd blends R&B, pop, and electronic music to 
-            create moody anthems about love, fame, and self-destruction.",
-            "birthday": "01/04/2016"
+            "description": "Known for his dark, atmospheric sound, The Weeknd blends R&B, pop, and electronic music to create moody anthems about love, fame, and self-destruction.","birthday": "01/04/2016"
         },
         {
             "imgPath": "img/places/billie-eilish.png",
             "imgLocation": "Los Angeles, California",
-            "description": "A pop phenomenon, Eilish captivates fans with
-             her haunting vocals, edgy style, and introspective lyrics, 
-             often challenging pop norms with her experimental sound.",
-            "birthday": "01/05/2016"
+            "description": "A pop phenomenon, Eilish captivates fans withher haunting vocals, edgy style, and introspective lyrics, often challenging pop norms with her experimental sound.","birthday": "01/05/2016"
         },
         {
             "imgPath": "img/places/bad-bunny.png",
             "imgLocation": "Almirante Sur",
-            "description": "A groundbreaking Puerto Rican artist, Bad Bunny
-             revolutionizes reggaeton and Latin trap with innovative beats
-              and socially conscious lyrics, reaching a vast global audience.",
-            "birthday": "01/06/2016"
+            "description": "A groundbreaking Puerto Rican artist, Bad Bunnyrevolutionizes reggaeton and Latin trap with innovative beatsand socially conscious lyrics, reaching a vast global audience.","birthday": "01/06/2016"
         },
         {
             "imgPath": "img/sabrina-carpenter.png",
             "imgLocation": "Quakertown, Pennsylvania",
-            "description": "A singer-songwriter and actress, Carpenter mixes 
-            pop and R&B influences to create relatable songs that often 
-            explore relationships and self-discovery.",
-            "birthday": "01/07/2016"
+            "description": "A singer-songwriter and actress, Carpenter mixes  pop and R&B influences to create relatable songs that often explore relationships and self-discovery.","birthday": "01/07/2016"
         },
         {
             "imgPath": "img/places/drake.png",
             "imgLocation": "Toronto, Ontario",
-            "description": "As a versatile rapper and singer, Drake blends 
-            hip-hop, R&B, and pop, delivering chart-topping hits that cover
-             everything from introspection to party anthems.",
-            "birthday": "01/09/2016"
+            "description": "As a versatile rapper and singer, Drake blends hip-hop, R&B, and pop, delivering chart-topping hits that covereverything from introspection to party anthems.","birthday": "01/09/2016"
         },
         {
             "imgPath": "img/places/lady-gaga.png",
             "imgLocation": "New York City, New York",
-            "description": "Known for her bold artistry and reinvention, 
-            Gaga combines pop, dance, and rock influences with a dramatic 
-            stage presence and messages of self-acceptance.",
-            "birthday": "01/10/2016"
+            "description": "Known for her bold artistry and reinvention, Gaga combines pop, dance, and rock influences with a dramatic stage presence and messages of self-acceptance.","birthday": "01/10/2016"
         },
         {
             "imgPath": "img/places/peso-pluma.png",
             "imgLocation": "Zapopan, Jalisco, Mexico",
-            "description": "A rising star in regional Mexican music, Peso 
-            Pluma infuses corridos with contemporary flair, bringing the 
-            genre to new audiences with his catchy, authentic style.",
-            "birthday": "01/13/2016"
+            "description": "A rising star in regional Mexican music, Peso Pluma infuses corridos with contemporary flair, bringing the genre to new audiences with his catchy, authentic style.","birthday": "01/13/2016"
         }
-  ]
+    ]
 }
