@@ -4,20 +4,25 @@ const mUrl = 'images.json'
 const mWaitTime = 5000
  // Timer interval in milliseconds
 
-$(document).ready(() => {
-  $('.details').hide() 
+ $(document).ready(() => {
+  $('.details').hide()
 
-  // Call a function here to start the timer for the slideshow
+  setInterval(() => {
+    showNextPhoto()
+  }, mWaitTime)
 
-  // Select the moreIndicator button and add a click event to:
-  // - toggle the rotation classes (rot90 and rot270)
-  // - slideToggle the visibility of the .details section
+  $('.moreIndicator').click(() => {
+    $('.moreIndicator').toggleClass('rot90 rot270')
+    $('.details').slideToggle()
+  })
 
-  // Select the "Next Photo" button and add a click event to call showNextPhoto
+  $('#nextPhoto').click(() => {
+    showNextPhoto()
+  })
 
-  // Select the "Previous Photo" button and add a click event to call showPrevPhoto
-
-  // Call fetchJSON() to load the initial set of images
+  $('#prevPhoto').click(() => {
+    showPrevPhoto()
+  })
   fetchJSON()
 })
 
@@ -41,16 +46,14 @@ function swapPhoto () {
   }
 }
 
-// Advances to the next photo, loops to the first photo if the end of array is reached
 function showNextPhoto () {
-  // Increment mCurrentIndex and call swapPhoto()
-  // Ensure it loops back to the beginning if mCurrentIndex exceeds array length
+  mCurrentIndex = (mCurrentIndex + 1) % mImages.length
+  swapPhoto()
 }
 
-// Goes to the previous photo, loops to the last photo if mCurrentIndex goes negative
 function showPrevPhoto () {
-  // Decrement mCurrentIndex and call swapPhoto()
-  // Ensure it loops to the end if mCurrentIndex is less than 0
+  mCurrentIndex = (mCurrentIndex - 1 + mImages.length) % mImages.length
+  swapPhoto()
 }
 
 // Starter code for the timer function
