@@ -40,11 +40,16 @@ function fetchJSON () {
 }
 
 // Function to swap and display the next photo in the slideshow
-function swapPhoto () {
+function swapPhoto() {
   if (mImages.length > 0) {
-    $('#photo').attr('src', mImages[mCurrentIndex].imgPath)
+    const currentImage = mImages[mCurrentIndex];
+    $('#photo').attr('src', currentImage.imgPath);
+    $('.location').text(`From: ${currentImage.imgLocation}`);
+    $('.description').text(`Description: ${currentImage.description}`);
+    $('.birthday').text(`Birthday: ${currentImage.birthday}`);
   }
 }
+
 
 function showNextPhoto () {
   mCurrentIndex = (mCurrentIndex + 1) % mImages.length
